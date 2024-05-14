@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <title>Easter Egg Game</title>
+</head>
+<body>
+  <div id="main-container">
+    <div id="easterEgg"></div>
+    <h1>Clickin' Rich!</h1>
+    <h2 id="moneyCounter">Money: £0</h2>
+    <button id="earnButton">Earn Money</button>
+    <button id="upgradeButton">Buy Upgrade</button>
+    <button id="resetButton">Reset</button>
+    <button id="toggleGambleButton">I wanna Gamble!</button>
+    <div id="gambleSection">
+      <div id="gambleResults" class="modal">
+        <div class="modal-content">
+          <p id="gambleResultText"></p>
+        </div>
+      </div>
+      <label for="gambleInput">Enter an amount:</label>
+      <input type="number" id="gambleInput">
+      <button id="gambleButton">Gamble!</button>
+    </div>
+    <div id="upgrades"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

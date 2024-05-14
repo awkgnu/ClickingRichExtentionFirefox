@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Click to Get Richer",
+  "version": "1.0",
+  "description": "A fun game where you click to get richer with easter eggs and upgrades.",
+  "icons": {
+    "48": "images/dollar_bill_jpg.jpg",
+    "128": "images/dollar_bill_large.jpg"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "images/dollar_bill_large.jpg",
+      "128": "images/dollar_bill_large.jpg"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "HACKINDUDE@ROBLOX.COM"
+    }
+  }
+}
